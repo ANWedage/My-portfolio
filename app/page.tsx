@@ -1,5 +1,6 @@
 import { HeroSection } from "./components/HeroSection";
 import { AboutSection } from "./components/AboutSection";
+import { CertificatesSection } from "./components/CertificatesSection";
 import { ProjectsSection } from "./components/ProjectsSection";
 import { ContactSection } from "./components/ContactSection";
 
@@ -29,6 +30,7 @@ export default function Home() {
       <main className="mx-auto max-w-5xl px-6">
         <HeroSection />
         <AboutSection />
+        <CertificatesSection />
         <ProjectsSection />
         <ContactSection />
       </main>
