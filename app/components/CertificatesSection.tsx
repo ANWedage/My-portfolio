@@ -22,7 +22,7 @@ export function CertificatesSection() {
           <h3 className="text-sm font-semibold text-white">
             AI/ML Engineer - Stage 1
           </h3>
-          <p className="mt-1 text-xs text-slate-400">SLIIT UNIVERSITY · 2025-11-25</p>
+          <p className="mt-1 text-xs text-slate-400">SLIIT UNIVERSITY(FOC) · 2025-11-25</p>
           <p className="mt-3 text-xs text-slate-300">
             AI/ML Engineer - Stage 1 certification from SLIIT University, awarded on November 25, 2025. This certificate validates foundational knowledge and skills in artificial intelligence and machine learning concepts and applications.
           </p>
