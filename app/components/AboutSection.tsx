@@ -32,7 +32,7 @@ export function AboutSection() {
         <div className="space-y-2">
           <h3 className="text-sm font-semibold text-slate-200">Skills</h3>
           <div className="flex flex-wrap gap-2">
-            {["Next.js", "React", "Tailwind", "Node.js", "UI/UX"].map(
+            {["Next.js", "React", "Tailwind", "Node.js", "UI/UX","MongoDB","R","SQL"].map(
               (skill) => (
                 <span key={skill} className="pill">
                   {skill}
