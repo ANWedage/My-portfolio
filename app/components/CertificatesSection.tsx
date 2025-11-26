@@ -42,6 +42,14 @@ export function CertificatesSection() {
             >
               Download
             </a>
+            <a
+              href="https://code.sliit.org/certificates/tbtgfcme4c"
+              target="_blank"
+              rel="noreferrer"
+              className="ghost-btn px-3 py-1 text-[0.7rem]"
+            >
+              View on Web
+            </a>
           </div>
         </article>
       </div>
