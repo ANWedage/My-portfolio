@@ -52,6 +52,40 @@ export function CertificatesSection() {
             </a>
           </div>
         </article>
+        <article className="rounded-lg border border-slate-800 bg-slate-900/40 p-5 shadow-sm">
+          <h3 className="text-sm font-semibold text-white">
+            AI/ML Engineer - Stage 2
+          </h3>
+          <p className="mt-1 text-xs text-slate-400">SLIIT UNIVERSITY(FOC) · 2025-11-27</p>
+          <p className="mt-3 text-xs text-slate-300">
+            AI/ML Engineer - Stage 2 certification from SLIIT University, awarded on November 27, 2025. This certificate validates foundational knowledge and skills in artificial intelligence and machine learning concepts and applications.
+          </p>
+          <div className="mt-4 flex flex-wrap items-center gap-3 text-xs">
+            <a
+              href="/certificates/AIML-Stage2.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="primary-btn px-3 py-1 text-[0.7rem]"
+            >
+              View PDF
+            </a>
+            <a
+              href="/certificates/AIML-Stage2.pdf"
+              download
+              className="ghost-btn px-3 py-1 text-[0.7rem]"
+            >
+              Download
+            </a>
+            <a
+              href="https://code.sliit.org/certificates/rdg3yxd2gy"
+              target="_blank"
+              rel="noreferrer"
+              className="ghost-btn px-3 py-1 text-[0.7rem]"
+            >
+              View on Web
+            </a>
+          </div>
+        </article>
       </div>
     </section>
   );

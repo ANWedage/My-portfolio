@@ -23,13 +23,14 @@ const projects = [
   },
   {
     title: "EVENTAZIA-frontend",
-    description: "Eventazia is a frontend web application that create for my own school get together event management.",
+    description: "Eventazia is a frontend web application that create for my own school get together event management.Already deployed in vercel.",
     tech: ["HTML", "CSS","JavaScript"],
     github: "https://github.com/ANWedage/eventazia-frontend",
+    live: "https://eventazia-frontend.vercel.app/",
   },
   {
     title: "EVENTAZIA-backend",
-    description: "Eventazia is a backend web application that create for my own school get together event management.",
+    description: "Eventazia is a backend web application that create for my own school get together event management.Already deployed in render.",
     tech: ["JavaScript"],
     github: "https://github.com/ANWedage/eventazia-backend",
   }
@@ -66,17 +67,30 @@ export function ProjectsSection() {
                 </span>
               ))}
             </div>
-            {project.github && (
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noreferrer"
-                className="mt-auto inline-flex items-center text-xs font-medium text-sky-400 hover:text-sky-300"
-              >
-                View Code
-                <span className="ml-1 text-sky-300">↗</span>
-              </a>
-            )}
+            <div className="mt-auto flex items-center gap-4 text-xs font-medium">
+              {project.github && (
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center text-sky-400 hover:text-sky-300"
+                >
+                  View Code
+                  <span className="ml-1 text-sky-300">↗</span>
+                </a>
+              )}
+              {"live" in project && project.live && (
+                <a
+                  href={project.live}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center text-emerald-400 hover:text-emerald-300"
+                >
+                  Live Site
+                  <span className="ml-1 text-emerald-300">↗</span>
+                </a>
+              )}
+            </div>
           </article>
         ))}
       </div>
