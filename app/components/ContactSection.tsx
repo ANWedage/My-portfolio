@@ -41,7 +41,7 @@ export function ContactSection() {
             </p>
             <p>
               <span className="font-semibold text-slate-100">Location:</span>{" "}
-              Ratnapura, Sri Lanka
+              105,Outercircular road,Ratnapura
             </p>
           </div>
         </div>
