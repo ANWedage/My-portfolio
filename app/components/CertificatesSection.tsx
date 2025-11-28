@@ -18,6 +18,9 @@ export function CertificatesSection() {
       </p>
 
       <div className="mt-8 grid gap-6 sm:grid-cols-2">
+
+          {/* Certificate 1 */}
+
         <article className="rounded-lg border border-slate-800 bg-slate-900/40 p-5 shadow-sm">
           <h3 className="text-sm font-semibold text-white">
             AI/ML Engineer - Stage 1
@@ -52,6 +55,9 @@ export function CertificatesSection() {
             </a>
           </div>
         </article>
+
+        {/* Certificate 2 */}
+
         <article className="rounded-lg border border-slate-800 bg-slate-900/40 p-5 shadow-sm">
           <h3 className="text-sm font-semibold text-white">
             AI/ML Engineer - Stage 2
@@ -83,6 +89,35 @@ export function CertificatesSection() {
               className="ghost-btn px-3 py-1 text-[0.7rem]"
             >
               View on Web
+            </a>
+          </div>
+        </article>
+
+        {/* Certificate 3 */}
+
+        <article className="rounded-lg border border-slate-800 bg-slate-900/40 p-5 shadow-sm">
+          <h3 className="text-sm font-semibold text-white">
+            Front End Web Development
+          </h3>
+          <p className="mt-1 text-xs text-slate-400">UOM(CODL) · 2025-11-30</p>
+          <p className="mt-3 text-xs text-slate-300">
+            Front End Web Development certification from UOM(CODL), awarded on November 30, 2025. This certificate validates foundational knowledge and skills in front-end web development technologies and frameworks.
+          </p>
+          <div className="mt-4 flex flex-wrap items-center gap-3 text-xs">
+            <a
+              href="/certificates/FrontEndCertificate.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="primary-btn px-3 py-1 text-[0.7rem]"
+            >
+              View PDF
+            </a>
+            <a
+              href="/certificates/FrontEndCertificate.pdf"
+              download
+              className="ghost-btn px-3 py-1 text-[0.7rem]"
+            >
+              Download
             </a>
           </div>
         </article>
