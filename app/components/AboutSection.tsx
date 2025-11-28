@@ -14,15 +14,13 @@ export function AboutSection() {
       <div className="section-header">
         <h2 className="section-title">About</h2>
         <p className="section-subtitle">
-          A quick snapshot of who I am and how I work.
+           Quick snapshot of who I am and how I work.
         </p>
       </div>
       <div className="grid gap-10 md:grid-cols-[1.4fr_1fr]">
         <div className="space-y-4 text-slate-300">
           <p>
-            I&apos;m a developer focused on crafting intuitive, performant, and
-            visually polished digital experiences. I enjoy taking ideas from
-            sketch to fully deployed products.
+            I&apos;m a developer who focuses on creating intuitive, performant, and visually polished digital experiences. I love bringing ideas from sketch to fully deployed products.
           </p>
           <p>
             My work balances clean engineering with attention to detail in
