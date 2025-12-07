@@ -10,7 +10,7 @@ export default function Home() {
       <header className="sticky top-0 z-20 border-b border-slate-800 bg-slate-950/80 backdrop-blur">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
           <span className="text-lg font-semibold tracking-tight">Adeepa Wedage</span>
-          <nav className="hidden gap-6 text-sm font-medium text-slate-300 sm:flex">
+          <nav className="hidden gap-6 text-sm font-medium text-slate-300 sm:flex sm:items-center">
             <a href="#home" className="nav-link">
               Home
             </a>
@@ -26,7 +26,13 @@ export default function Home() {
             <a href="#contact" className="nav-link">
               Contact
             </a>
-            
+            <a 
+              href="/cv/resume.pdf" 
+              download 
+              className="primary-btn px-4 py-2 text-xs"
+            >
+              Download CV
+            </a>
           </nav>
         </div>
       </header>
