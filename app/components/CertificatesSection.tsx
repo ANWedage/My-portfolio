@@ -121,6 +121,35 @@ export function CertificatesSection() {
             </a>
           </div>
         </article>
+
+        {/* Certificate 4 */}
+
+        <article className="rounded-lg border border-slate-800 bg-slate-900/40 p-5 shadow-sm">
+          <h3 className="text-sm font-semibold text-white">
+            Server Side Web Programming
+          </h3>
+          <p className="mt-1 text-xs text-slate-400">UOM(CODL) · 2025-12-11</p>
+          <p className="mt-3 text-xs text-slate-300">
+            Server Side Web Programming certification from UOM(CODL), awarded on December 11, 2025. This certificate validates foundational knowledge and skills in server-side web programming technologies and frameworks.
+          </p>
+          <div className="mt-4 flex flex-wrap items-center gap-3 text-xs">
+            <a
+              href="/certificates/ServerSideCertificate.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="primary-btn px-3 py-1 text-[0.7rem]"
+            >
+              View PDF
+            </a>
+            <a
+              href="/certificates/ServerSideCertificate.pdf"
+              download
+              className="ghost-btn px-3 py-1 text-[0.7rem]"
+            >
+              Download
+            </a>
+          </div>
+        </article>
       </div>
     </section>
   );
