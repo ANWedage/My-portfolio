@@ -33,6 +33,13 @@ const projects = [
     description: "Eventazia is a backend web application that create for my own school get together event management.Already deployed in render.",
     tech: ["JavaScript"],
     github: "https://github.com/ANWedage/eventazia-backend",
+  },
+  {
+    title: "Universe-Chat",
+    description: "Universe-Chat is a real-time chat application that allows users to communicate instantly across the globe with a sleek and user-friendly interface.",
+    tech: ["TypeScript"],
+    github: "https://github.com/ANWedage/Universe-Chat",
+    live: "https://universe-chat.vercel.app/",
   }
 ];
 
