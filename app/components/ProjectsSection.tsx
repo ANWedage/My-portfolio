@@ -27,6 +27,7 @@ const projects = [
     tech: ["HTML", "CSS","JavaScript"],
     github: "https://github.com/ANWedage/eventazia-frontend",
     live: "https://eventazia-frontend.vercel.app/",
+    personal: true,
   },
   {
     title: "EVENTAZIA-backend",
@@ -40,6 +41,7 @@ const projects = [
     tech: ["TypeScript"],
     github: "https://github.com/ANWedage/Universe-Chat",
     live: "https://universe-chat.vercel.app/",
+    personal: true,
   }
 ];
 
@@ -58,12 +60,15 @@ export function ProjectsSection() {
           Selected work that highlights my approach to building products.
         </p>
       </div>
-      <div className="grid gap-6 md:grid-cols-3">
+      <div className="grid gap-6 grid-cols-1 max-w-4xl mx-auto">
         {projects.map((project) => (
-          <article key={project.title} className="card flex flex-col justify-between">
-            <h3 className="mb-2 text-base font-semibold text-white">
-              {project.title}
-            </h3>
+          <article key={project.title} className="card flex flex-col justify-between relative w-full">
+              <h3 className="mb-2 text-base font-semibold text-white flex items-center gap-3">
+                <span className="truncate">{project.title}</span>
+                {project.personal && (
+                  <span className="badge-inline flex-shrink-0 ml-2">Personal Project</span>
+                )}
+              </h3>
             <p className="mb-4 text-sm text-slate-300">
               {project.description}
             </p>

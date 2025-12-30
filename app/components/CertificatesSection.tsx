@@ -150,6 +150,43 @@ export function CertificatesSection() {
             </a>
           </div>
         </article>
+
+        {/* Certificate 5 */}
+
+        <article className="rounded-lg border border-slate-800 bg-slate-900/40 p-5 shadow-sm">
+          <h3 className="text-sm font-semibold text-white">
+            Bringing Websites to Life with JavaScript(ALM-COURSE_4058940)
+          </h3>
+          <p className="mt-1 text-xs text-slate-400">IBM SkillsBuild · 2025-12-30</p>
+          <p className="mt-3 text-xs text-slate-300">
+            Bringing Websites to Life with JavaScript certification from IBM SkillsBuild, awarded on December 30, 2025. This certificate validates foundational knowledge and skills in enhancing website interactivity and functionality using JavaScript.
+            </p>
+          <div className="mt-4 flex flex-wrap items-center gap-3 text-xs">
+            <a
+              href="/certificates/Bringing Websites to Life with JavaScript.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="primary-btn px-3 py-1 text-[0.7rem]"
+            >
+              View PDF
+            </a>
+            <a
+              href="/certificates/Bringing Websites to Life with JavaScript.pdf"
+              download
+              className="ghost-btn px-3 py-1 text-[0.7rem]"
+            >
+              Download
+            </a>
+            <a
+              href="https://skills.yourlearning.ibm.com/certificate/share/5496fbe38eewogICJvYmplY3RJZCIgOiAiQUxNLUNPVVJTRV80MDU4OTQwIiwKICAibGVhcm5lckNOVU0iIDogIjY0NTcxMThSRUciLAogICJvYmplY3RUeXBlIiA6ICJBQ1RJVklUWSIKfQ8484914daf-10"
+              target="_blank"
+              rel="noreferrer"
+              className="ghost-btn px-3 py-1 text-[0.7rem]"
+            >
+              View on Web
+            </a>
+          </div>
+        </article>
       </div>
     </section>
   );

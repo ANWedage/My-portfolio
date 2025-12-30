@@ -53,6 +53,17 @@ html {
   @apply rounded-2xl border border-slate-800 bg-slate-900/60 p-5 shadow-lg shadow-sky-500/10 transition-transform duration-200 hover:-translate-y-1 hover:border-sky-500/70 hover:shadow-sky-500/30;
 }
 
+.badge {
+  @apply absolute right-3 top-3 rounded-full bg-amber-400/95 px-3 py-1 text-xs font-semibold text-slate-900 shadow-md;
+}
+
+.badge-inline {
+  @apply inline-flex items-center rounded-full px-2 py-0.5 text-xs font-semibold text-slate-900;
+  background: linear-gradient(90deg,#f59e0b,#f97316);
+  box-shadow: 0 8px 24px rgba(249,115,22,0.14);
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
 .pill {
   @apply rounded-full bg-slate-900/70 px-3 py-1 text-xs font-medium text-slate-100 ring-1 ring-slate-700/80;
 }
