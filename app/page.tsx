@@ -25,11 +25,11 @@ export default function Home() {
             <a href="#experience" className="nav-link">
               Experience
             </a>
-            <a href="#projects" className="nav-link">
-              Projects
-            </a>
             <a href="#certificates" className="nav-link">
               Certificates
+            </a>
+            <a href="#projects" className="nav-link">
+              Projects
             </a>
             <a href="#contact" className="nav-link">
               Contact
