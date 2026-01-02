@@ -46,7 +46,7 @@ const projects = [
   {
     title: "Universe-Chat-App",
     description: "Universe-Chat Android app is a real-time chat application that allows users to communicate instantly across the globe with a sleek and user-friendly interface.",
-    tech: ["TypeScript"],
+    tech: ["Kotlin"],
     github: "https://github.com/ANWedage/Universe-Chat-App",
     personal: true,
   }
