@@ -42,6 +42,14 @@ const projects = [
     github: "https://github.com/ANWedage/Universe-Chat",
     live: "https://universe-chat.vercel.app/",
     personal: true,
+  },
+  {
+    title: "Universe-Chat-App",
+    description: "Universe-Chat is a real-time chat application that allows users to communicate instantly across the globe with a sleek and user-friendly interface.",
+    tech: ["TypeScript"],
+    github: "https://github.com/ANWedage/Universe-Chat",
+    live: "https://universe-chat.vercel.app/",
+    personal: true,
   }
 ];
 
